@@ -1,0 +1,23 @@
+{
+  "name": "devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run" : "node index.js",
+    "tests" : "node test.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2174802010425/devops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/2174802010425/devops/issues"
+  },
+  "homepage": "https://github.com/2174802010425/devops#readme"
+}
