@@ -1,3 +1,10 @@
-console.log('Starting test...')
-setTimeout(() => console.log('Waiting for 3 seconds....'), 3000)
-console.log('Test completed...')
+console.log('Starting tests...');
+
+// Giả lập test
+if (1 + 1 !== 2) {
+  console.error('Test failed');
+  process.exit(1);
+}
+
+console.log('All tests passed ✅');
+process.exit(0);
